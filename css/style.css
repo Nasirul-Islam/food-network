@@ -1,2 +1,44 @@
-/* first section start */
-/* first section end */
+/* order section start */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.half_width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.order_content {
+    margin-top: 150px;
+}
+
+.half_width h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+.half_width span {
+    color: orange;
+}
+
+.half_width p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(47, 44, 44);
+    margin-bottom: 90px;
+}
+
+.half_width a {
+    text-decoration: none;
+    background: linear-gradient(45deg, orange, tomato);
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px  30px;
+}
+/* order section end */
+
+/* about section start */
+
+/* about section end */
