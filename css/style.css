@@ -70,3 +70,41 @@ section {
     margin-top: 55px;
 }
 /* about section end */
+
+/* recipies section start */
+.recipies_head {
+    text-align: center;
+}
+
+.recipies_head h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+.recipies_head p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(47, 44, 44);
+    margin-bottom: 70px;
+}
+
+.recipies_inner_content {
+    width: 28%;
+    float: left;
+    margin-left: 4%;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 9px 15px 40px grey;
+}
+
+.recipies_inner_image {
+    text-align: center;
+}
+
+.recipies_inner_image img {
+    width: 90%;
+    padding-top: 10ppx;
+}
+/* recipies section end */
