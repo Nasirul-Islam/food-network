@@ -1,7 +1,13 @@
 /* order section start */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
+
+section {
+    height: 700px;
+}
+
 .half_width {
     width: 40%;
     float: left;
@@ -13,7 +19,7 @@ body {
 }
 
 .half_width h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 600;
     color: black;
 }
@@ -29,7 +35,7 @@ body {
     margin-bottom: 90px;
 }
 
-.half_width a {
+.button {
     text-decoration: none;
     background: linear-gradient(45deg, orange, tomato);
     border-radius: 20px;
@@ -40,5 +46,27 @@ body {
 /* order section end */
 
 /* about section start */
+.about_section {
+    background: url(../images/about_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    /* height: 500px; */
+}
 
+.about_image img {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.half_width h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+.about_content {
+    margin-top: 55px;
+}
 /* about section end */
