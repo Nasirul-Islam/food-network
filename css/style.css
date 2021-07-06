@@ -2,6 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 section {
@@ -47,11 +48,13 @@ section {
 
 /* about section start */
 .about_section {
+    height: 750px;
+}
+
+.about_section {
     background: url(../images/about_banner.png);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
-    /* height: 500px; */
 }
 
 .about_image img {
@@ -72,6 +75,10 @@ section {
 /* about section end */
 
 /* recipies section start */
+.recipies_section {
+    height: 950px;
+}
+
 .recipies_head {
     text-align: center;
 }
@@ -110,14 +117,18 @@ section {
 /* recipies section end */
 
 /* footer section start */
+.footer_section {
+    height: 600px;
+}
+
 .footer_head {
     text-align: center;
-    margin: 0 125px;
+    margin: 0px 125px;
     height: 300px;
     padding: 50px;
     border-radius: 30px;
     box-sizing: border-box;
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: grey 5px -5px 35px;
 }
 
 .footer_head_main {
